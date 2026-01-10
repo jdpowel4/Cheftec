@@ -1,5 +1,5 @@
 from sqlalchemy import Column, DateTime, func
-from app.core.database import Base
+from core.database import Base
 
 class TimestampMixin:
     created_at = Column(DateTime(timezone=True), server_default=func.now())
