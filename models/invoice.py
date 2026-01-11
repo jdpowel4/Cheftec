@@ -20,7 +20,7 @@ class InvoiceLineItem(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     invoice_id = Column(Integer, ForeignKey("invoices.id"), nullable=False)
-    vendor_item_id = Column(Integer, ForeignKey("vendors_items.id"), nullable=False)
+    vendor_item_id = Column(Integer, ForeignKey("vendor_items.id"), nullable=False)
 
     quantity = Column(Numeric(10, 4), nullable=False)
     unit_cost = Column(Numeric(10, 4), nullable=False)
