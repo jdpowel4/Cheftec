@@ -19,7 +19,7 @@ if config.config_file_name is not None:
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 from core.database import Base
-from models import ingredient, vendor, vendor_item, invoice, inventory
+from models import ingredient, vendor, vendor_item, invoice, inventory, recipe, recipeingredient
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
