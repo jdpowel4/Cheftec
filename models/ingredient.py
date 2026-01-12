@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Numeric
 from core.database import Base
 from models.base import TimestampMixin
 
@@ -8,3 +8,4 @@ class Ingredient(Base, TimestampMixin):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, nullable=False, unique=True)
     base_unit = Column(String, nullable=False)  #Lb, oz, each, etc
+    current_cost_per_base_unit = Column(Numeric(10, 4), nullable=True)
