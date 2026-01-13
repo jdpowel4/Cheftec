@@ -8,11 +8,12 @@ class VendorItem(Base, TimestampMixin):
 
     id = Column(Integer, primary_key=True, index=True)
     vendor_id = Column(Integer, ForeignKey("vendors.id"), nullable=False)
-    ingredient_id = Column(Integer, ForeignKey("ingredients.id"), nullable=False)
+    ingredient_id = Column(Integer, ForeignKey("ingredients.id"), nullable=True)
 
     vendor_sku = Column(String, nullable=False)
-    pack_size = Column(String, nullable=True)   # "6 x 2Lb"
+    vendor_description = Column(String, nullable=False)
+    purchase_unit = Column(String, nullable=True)   # "6 x 2Lb"
     unit_cost = Column(Numeric(10, 2), nullable=False)
 
     vendor = relationship("Vendor")
-    ingredient = relationship("Ingredient")
+    ingredient = relationship("Ingredient", back_populates="vendor_items")

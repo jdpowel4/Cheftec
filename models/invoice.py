@@ -13,7 +13,7 @@ class Invoice(Base, TimestampMixin):
     total = Column(Numeric(10, 2), nullable=False)
 
     vendor = relationship("Vendor")
-    line_item = relationship("InvoiceLineItem", back_populates="invoive")
+    line_items = relationship("InvoiceLineItem", back_populates="invoice")
 
 class InvoiceLineItem(Base):
     __tablename__ = "invoice_line_items"

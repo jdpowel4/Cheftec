@@ -17,4 +17,5 @@ class NormalizedInvoice:
     vendor_name: str
     invoice_number: str
     invoice_date: date
+    total: Decimal
     line_items: List[NormalizedInvoiceLineItem]
