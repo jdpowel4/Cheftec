@@ -10,7 +10,6 @@ def persist_invoice(db: Session, invoice_data: NormalizedInvoice) -> Invoice:
     """
     Persist a normalized invoice into the database.
     """
-
     # Get or Create Vendor
     vendor = (
         db.query(Vendor)
@@ -18,17 +17,34 @@ def persist_invoice(db: Session, invoice_data: NormalizedInvoice) -> Invoice:
         .one_or_none()
     )
 
+    existing = (
+        db.query(Invoice)
+        .filter(
+            Invoice.vendor_id == vendor.id,
+            Invoice.invoice_number == invoice_data.invoice_number
+        )
+        .one_or_none()
+    )
+
+    if existing:
+        print("Invoice already exists, returning existing record")
+        return existing
+
     if not vendor:
         vendor = Vendor(name=invoice_data.vendor_name)
         db.add(vendor)
         db.flush() # Get vendor ID
 
+    total = sum(
+        item.extended_cost
+        for item in invoice_data.line_items
+    )
     # Create Invoice
     invoice = Invoice(
         vendor_id = vendor.id,
         invoice_number = invoice_data.invoice_number,
         invoice_date = invoice_data.invoice_date,
-        total = invoice_data.total
+        total = total
     )
     db.add(invoice)
     db.flush() # Get Invoice ID
@@ -65,6 +81,14 @@ def persist_invoice(db: Session, invoice_data: NormalizedInvoice) -> Invoice:
             extended_cost=item.extended_price
         )
         db.add(line)
-    db.commit()
+
+        assert invoice.total is not None
+        assert invoice.total >= 0
+        
+    try:
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise
 
     return invoice

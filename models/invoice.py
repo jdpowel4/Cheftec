@@ -1,10 +1,12 @@
-from sqlalchemy import Column, Integer, String, Date, ForeignKey, Numeric
+from sqlalchemy import Column, Integer, String, Date, ForeignKey, Numeric, UniqueConstraint
 from sqlalchemy.orm import relationship
 from core.database import Base
 from models.base import TimestampMixin
 
 class Invoice(Base, TimestampMixin):
     __tablename__ = "invoices"
+
+    __table_args__=(UniqueConstraint("vendor_id", "invoice_number", name="uq_vendor_invoice"),)
 
     id = Column(Integer, primary_key=True, index=True)
     vendor_id = Column(Integer, ForeignKey("vendors.id"), nullable=False)
