@@ -1,3 +1,6 @@
+import logging
+logger = logging.getLogger(__name__)
+
 from .vendor import Vendor
 from .ingredient import Ingredient
 from .vendor_item import VendorItem

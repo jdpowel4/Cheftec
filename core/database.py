@@ -1,5 +1,8 @@
+import logging
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+
+logger = logging.getLogger(__name__)
 
 DATABASE_URL = "sqlite:///./cheftec.db"
 

@@ -1,7 +1,10 @@
+import logging
 from dataclasses import dataclass
 from datetime import date
 from decimal import Decimal
 from typing import List, Optional
+
+logger = logging.getLogger(__name__)
 
 @dataclass
 class NormalizedInvoiceLineItem:

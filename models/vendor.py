@@ -1,3 +1,6 @@
+import logging
+logger = logging.getLogger(__name__)
+
 from sqlalchemy import Column, Integer, String
 from core.database import Base
 from models.base import TimestampMixin

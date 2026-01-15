@@ -1,0 +1,404 @@
+2026-01-14 18:54:21,283 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 18:54:21,307 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,307 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,308 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,308 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,309 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,322 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,323 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,323 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,324 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,328 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,339 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,343 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,362 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 18:54:21,368 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,371 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,380 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,392 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,393 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,395 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,396 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,398 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 18:54:21,399 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 18:54:21,442 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,444 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,446 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,448 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,456 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,458 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,461 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,471 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,474 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,476 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,478 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,487 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,489 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,492 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,500 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,502 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,505 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,508 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,517 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,520 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,523 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,525 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,533 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,535 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,539 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,548 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,550 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 18:54:21,555 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,557 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,565 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,566 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,578 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 18:54:21,592 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:09:32,726 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 19:09:32,752 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,753 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,760 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,764 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,765 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,786 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,791 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,812 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,819 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,841 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:09:32,866 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,868 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,870 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,884 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,898 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,900 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,902 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,931 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:09:32,933 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:09:33,025 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,030 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,044 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,046 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,049 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,054 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,055 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,076 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,098 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,103 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,124 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,150 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,155 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,182 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,192 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,216 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,227 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,250 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,262 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,284 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,315 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,322 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,348 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,366 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,370 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,372 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:09:33,385 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,399 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:09:33,419 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:09:33,422 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:12:37,496 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 19:12:37,513 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,514 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,514 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,514 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,515 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,515 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,515 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:12:37,539 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,543 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,565 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:12:37,593 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,624 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,635 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,637 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,661 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,693 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,697 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:12:37,720 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:12:37,782 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,783 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,787 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:12:37,792 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,806 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:12:37,828 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,830 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,831 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,836 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:12:37,838 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,860 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,865 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,886 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:12:37,913 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,917 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,941 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,963 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:12:37,967 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,971 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:37,984 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:12:37,996 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:12:38,013 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:12:38,015 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,582 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 19:23:40,600 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,600 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,604 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:23:40,604 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,604 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,605 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:23:40,605 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,605 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,605 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:23:40,606 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,607 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,608 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,608 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,609 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,609 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,610 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,611 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,627 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,629 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:23:40,631 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:23:40,692 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,694 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,698 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,704 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,705 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,708 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,709 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,711 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,717 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,718 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,721 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,722 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,726 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,729 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,734 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,735 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,737 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,742 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,743 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,749 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,751 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,752 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,758 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,763 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,764 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,766 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,767 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,769 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,774 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,779 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,781 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,782 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,783 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,787 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,796 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,798 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,799 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,802 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,804 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,813 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,827 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:23:40,829 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,829 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,830 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,830 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,834 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,834 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,844 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,844 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,845 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,846 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,847 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,850 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,859 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,859 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,860 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,861 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,861 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,865 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,866 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,875 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,875 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:23:40,876 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:23:40,882 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,883 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,884 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,893 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,897 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,898 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,905 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,907 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,909 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,912 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,914 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,922 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,924 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,926 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,929 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,930 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,938 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,939 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,941 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,944 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,945 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,952 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,954 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,957 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,960 | INFO | services.invoice_persistence | Creating Vendor Item
+2026-01-14 19:23:40,962 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,968 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:23:40,970 | WARNING | services.invoice_persistence | Vendor item not linked to ingredient yet
+2026-01-14 19:26:47,594 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 19:26:47,600 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,600 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,600 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,600 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,601 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,602 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,603 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:26:47,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,603 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,604 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:26:47,604 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,604 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,604 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:26:47,605 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,606 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,606 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,607 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,607 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,608 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,609 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,609 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,610 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,625 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:26:47,628 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:26:47,673 | WARNING | services.invoice_persistence | Duplicate invoice detected - skipping insert
+2026-01-14 19:26:47,673 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:26:47,675 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,683 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,684 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,684 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,685 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,686 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,687 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,691 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,691 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,698 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,699 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,700 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,700 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,701 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,701 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,702 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,703 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,707 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,708 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,715 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,715 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:26:47,716 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:26:47,718 | WARNING | services.invoice_persistence | Duplicate invoice detected - skipping insert
+2026-01-14 19:34:33,342 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 19:34:33,349 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:34:33,349 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:34:33,350 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:34:33,350 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:34:33,351 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:34:33,370 | WARNING | services.invoice_persistence | Duplicate invoice detected - skipping insert
+2026-01-14 19:34:33,371 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:34:33,371 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:34:33,372 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:34:33,373 | WARNING | services.invoice_persistence | Duplicate invoice detected - skipping insert
+2026-01-14 19:45:55,174 | INFO | services.invoice_ingest.usfoods_importer | Starting invoice import
+2026-01-14 19:45:55,181 | INFO | services.invoice_ingest.usfoods_importer | Invoice header parsed
+2026-01-14 19:45:55,181 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,181 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,182 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,182 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,182 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,182 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,182 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,183 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,183 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,184 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,184 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,185 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,186 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,192 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,201 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,203 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:45:55,222 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,225 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,227 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:45:55,231 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,235 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,248 | WARNING | services.invoice_ingest.usfoods_importer | Catch-weight pricing detected
+2026-01-14 19:45:55,251 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,252 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,254 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,256 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,257 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,258 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,260 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,261 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,262 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,263 | DEBUG | services.invoice_ingest.usfoods_importer | Parsed line item
+2026-01-14 19:45:55,264 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:45:55,302 | WARNING | services.invoice_persistence | Duplicate invoice detected - skipping insert
+2026-01-14 19:45:55,303 | INFO | services.invoice_ingest.pfs_importer | Starting invoice import
+2026-01-14 19:45:55,314 | INFO | services.invoice_ingest.pfs_importer | Invoice header parsed
+2026-01-14 19:45:55,316 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,327 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,330 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,341 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,341 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,342 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,353 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,354 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,356 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,356 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,357 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,361 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,369 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,370 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,372 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,372 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,373 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,384 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,385 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,386 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,387 | DEBUG | services.invoice_ingest.pfs_importer | Parsed line item
+2026-01-14 19:45:55,388 | INFO | services.invoice_persistence | Persisting invoice
+2026-01-14 19:45:55,391 | WARNING | services.invoice_persistence | Duplicate invoice detected - skipping insert

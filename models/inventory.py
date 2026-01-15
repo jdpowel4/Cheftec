@@ -1,3 +1,6 @@
+import logging
+logger = logging.getLogger(__name__)
+
 from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, DateTime
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func

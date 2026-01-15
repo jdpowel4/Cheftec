@@ -1,5 +1,8 @@
+import logging
 from services.unit_conversions import convert
 from decimal import Decimal
+
+logger = logging.getLogger(__name__)
 
 def calculate_recipe_cost(recipe):
     total_cost = Decimal(0)

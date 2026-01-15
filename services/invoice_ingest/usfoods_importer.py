@@ -1,9 +1,12 @@
+import logging
 import csv
 from decimal import Decimal, ROUND_HALF_UP
 from datetime import datetime
 
 from .base_importer import BaseInvoiceImporter
 from .schemas import NormalizedInvoice, NormalizedInvoiceLineItem
+
+logger = logging.getLogger(__name__)
 
 class USFoodsInvoiceImporter(BaseInvoiceImporter):
     def load(self, file_path: str) -> NormalizedInvoice:
@@ -12,16 +15,33 @@ class USFoodsInvoiceImporter(BaseInvoiceImporter):
         invoice_date = None
         invoice_total = None
 
+        logger.info(
+            "Starting invoice import",
+            extra={
+                "vendor": "US Foods",
+                "file": file_path
+            }
+        )
+
         with open(file_path, newline="", encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
 
             for row in reader:
-                
+
                 if invoice_number is None:
                     invoice_number = row["DocumentNumber"].strip()
                     invoice_date = datetime.strptime(row["DocumentDate"].strip(), "%m/%d/%Y").date()
                     invoice_total = Decimal(row["NetAmountAfter Adjustment"])
 
+                    logger.info(
+                        "Invoice header parsed",
+                        extra={
+                            "vendor": "US Foods",
+                            "invoice_number": invoice_number,
+                            "invoice_date": invoice_date
+                        }
+                    )
+                
                 item = NormalizedInvoiceLineItem(
                     vendor_sku=row["ProductNumber"].strip(),
                     description=row["ProductDescription"].strip(),
@@ -31,10 +51,29 @@ class USFoodsInvoiceImporter(BaseInvoiceImporter):
                     extended_price=Decimal(row["ExtendedPrice"])
                     )
                 
+                logger.debug(
+                     "Parsed line item",
+                     extra={
+                          "sku": item.vendor_sku,
+                          "qty": str(item.quantity),
+                          "unit": item.unit,
+                          "price": str(item.unit_price)
+                     }
+                )
+
                 calculated = (item.quantity * item.unit_price).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
 
                 # Allow small rounding variance
                 if calculated != item.extended_price:
+                    logger.warning(
+                         "Catch-weight pricing detected",
+                         extra={
+                              "sku": item.vendor_sku,
+                              "qty": str(item.quantity),
+                              "unit_price": str(item.unit_price),
+                              "extended": str(item.extended_price)
+                         }
+                    )
                     # Likely a catch-weight or weight-based item
                     # Do NOT fail ingestion
                     print(
