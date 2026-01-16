@@ -1,0 +1,14 @@
+{% if ingredients %}
+    {% for ing in ingredients %}
+    <tr>
+        <td>{{ ing.name }}</td>
+        <td>{{ ing.base_unit | default("NULL") }}</td>
+    </tr>
+    {% endfor %}
+{% else %}
+    <tr>
+        <td colspan="2" style="text-align:center; color:#777;"><em>
+            No ingredients found
+        </em></td>
+    </tr>
+{% endif %}

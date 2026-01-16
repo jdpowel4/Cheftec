@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block contents %}
+<h1>Ingredients</h1>
+
+<form method="post" action="/ingredients">
+    <input name="name" placeholder="Ingredient Name" required>
+    <input name="base_unit" placeholder="Base Unit (lb, oz, ea)" required>
+    <button type="submit">Add</button>
+</form>
+
+<hr>
+
+<ul>
+    {% for ingredient in ingredients %}
+        <li>{{ ingredient,name }} ({{ ingredient.base_unit }})</li>
+    {% else %}
+        <li>No ingredients yet</li>
+    {% endfor %}
+</ul>
+{% endblock %}

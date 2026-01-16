@@ -1,6 +1,6 @@
 import logging
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.orm import Session, sessionmaker, declarative_base
 
 logger = logging.getLogger(__name__)
 
@@ -18,3 +18,10 @@ SessionLocal = sessionmaker(
 )
 
 Base = declarative_base()
+
+def get_db() -> Session:
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()

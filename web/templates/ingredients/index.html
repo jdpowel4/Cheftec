@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ingredients</title>
+        <script scr="http://unpkg.com/htmx.org@1.9.10"></script>
+
+        <style>
+            table { border-collapse: collapse; width: 100%; }
+            th, td { padding: 8px; border: 1px solid #ccc; }
+            input { padding: 6px; width: 300px; }
+        </style>
+    </head>
+    <body>
+        <h1>Ingredients</h1>
+        
+        <input
+            type="text"
+            name="q"
+            placeholder="Search ingredients..."
+            hx-get="/ingredients/search"
+            hx-trigger="keyup changed delay:300ms"
+            hx-target="#ingredients-table-body"
+            hx-indicator="#loading"
+            hx-swap="innerHTML"
+        />
+
+        <span id="loading" style="display:none;">Searching...</span>
+
+        <form
+            method="post"
+            hx-post="/ingredients"
+            hx-target="#ingredients-table-body"
+            hx-swap="afterbegin"
+        >
+            <input type="text" name="name" placeholder="Ingredient Name" required />
+            <input type="text" name="base_unit" placeholder="Unit (lb, ea, cs)" />
+            <button type="submit">Add</button>
+        </form>
+
+        <table>
+            <thread>
+                <tr>
+                    <th>Name</th>
+                    <th>Unit</th>
+                </tr>
+            </thread>
+            <tbody id="ingredient-table-body">
+                {% include "ingredients/_rows.html" %}
+            </tbody>
+        </table>
+        
+    </body>
+</html>
