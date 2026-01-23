@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Unlinked Vendor Items</h1>
+
+<table boarder="1" cellpadding="6">
+    <thead>
+        <tr>
+            <th>Vendor</th>
+            <th>SKU</th>
+            <th>Description</th>
+            <th>Purchase Unit</th>
+            <th>Ingredient</th>
+        </tr>
+    </thead>
+    <tbody id = "ingredient-table-body">
+        {% if vendor_items %}
+            {% for item in vendor_items %}
+                {% with vendor_item=item %}
+                    {% include "vendor_items/_row.html" %}
+                {% endwith %}
+            {% endfor %}
+        {% else %}
+            <tr>
+                <td colspan="5" style="text-align:center; color:#777"><em>All vendor items are linked</em></td>
+            </tr>
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}
+
+{# <!--  
+        <tr>
+            <td>{{ item.vendor.name }}</td>
+            <td>{{ item.vendor_sku }}</td>
+            <td>{{ item.vendor_description }}</tr>     
+            <td>{{ item.purchase_unit }}</td>
+            <td><em>Not Linked</em></td>
+        </tr>
+
+        {% else %}
+        <tr>
+            <td colspan="5">All vendor items are linked</td>
+        </tr>
+    --> #}

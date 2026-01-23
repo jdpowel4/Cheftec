@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Ingredients</title>
-        <script scr="http://unpkg.com/htmx.org@1.9.10"></script>
+        <script src="http://unpkg.com/htmx.org@1.9.10"></script>
 
         <style>
             table { border-collapse: collapse; width: 100%; }
@@ -12,14 +12,18 @@
     </head>
     <body>
         <h1>Ingredients</h1>
-        
+        <script>
+            document.body.addEventListener('html.responseError', e => {
+                console.error('HTMX ERROR:', e.detail);
+            });
+        </script>
         <input
             type="text"
             name="q"
             placeholder="Search ingredients..."
             hx-get="/ingredients/search"
             hx-trigger="keyup changed delay:300ms"
-            hx-target="#ingredients-table-body"
+            hx-target="#ingredient-table-body"
             hx-indicator="#loading"
             hx-swap="innerHTML"
         />
@@ -29,7 +33,7 @@
         <form
             method="post"
             hx-post="/ingredients"
-            hx-target="#ingredients-table-body"
+            hx-target="#ingredient-table-body"
             hx-swap="afterbegin"
         >
             <input type="text" name="name" placeholder="Ingredient Name" required />
@@ -37,15 +41,25 @@
             <button type="submit">Add</button>
         </form>
 
+        <form
+            hx-post="/ingredients/import"
+            hx-encoding="multipart/form-data"
+            hx-target="#ingredient-table-body"
+            hx-swap="afterbegin"
+        >
+            <input type="file" name="file" accept=".csv" required />
+            <button type="submit">Import CSV</button>
+        </form>
+
         <table>
-            <thread>
+            <thead>
                 <tr>
-                    <th>Name</th>
+                    <th>Name</th> 
                     <th>Unit</th>
                 </tr>
-            </thread>
+            </thead>
             <tbody id="ingredient-table-body">
-                {% include "ingredients/_rows.html" %}
+                    {% include "ingredients/_rows.html" %}
             </tbody>
         </table>
         

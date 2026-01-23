@@ -1,0 +1,21 @@
+<tr id="vendor-item-{{ item.id }}">
+    <td>{{ item.vendor.name }}</td>
+    <td>{{ item.vendor_sku }}</td>
+    <td>{{ item.vendor_description }}</td>
+    <td>{{ item.purchase_unit }}</td>
+
+    <td id="ingredient-cell-{{ item.id }}">
+        <input
+            type="text"
+            name="q"
+            placeholder="Search ingredient..."
+            hx-get="/ingredients/search"
+            hx-trigger="keyup changed delay:300ms"
+            hx-target="#ingredient-results-{{ item.id }}"
+            hx-vals='{"vendor_item_id": {{ item.id }} }'
+        />
+
+        <div id="ingredient-results-{{ item.id }}"></div>
+    </td>
+</tr>
+

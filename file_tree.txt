@@ -1,0 +1,65 @@
+\app
+|_\alembic
+|
+|_\api
+| |_ingredients.py (which I don't think does anything)
+|
+|_\app
+| |_main.py (where we're initializing the web server)
+|
+|_\core
+| |_database.py
+| |_logging_config.py
+| |_settings.py
+|
+|_\models
+| |_ __init__.py
+| |_base.py
+| |_ingredients.py
+| |_inventory.py
+| |_invoice.py
+| |_recipe.py
+| |_recipeingredient.py
+| |_vendor_item.py
+| |_vendor.py
+|
+|_\services
+| |_\ingredient_linking
+| | |_engine.py
+| | |_linker.py
+| | |_rules.py
+| | |_scorer.py
+| |
+| |_\invoice_ingest
+| | |_base_importer.py
+| | |_invoice_ingest.py
+| | |_pfs_importer.py
+| | |_schemas.py
+| | |_usfoods_importer.py
+| |
+| |_invoice_persistence.py
+| |_ercipe_costing.py
+| |_unit_conversions.py
+| |_vendor_item_service.py
+|
+|_\ui (This is all the tkinter we did the other day)
+| |_screen.py
+| |_view_model.py
+|
+|_\web
+| |_\routes
+| | |_ingredients.py
+| |
+| |_\templates
+| | |_\ingredients
+| | | |_ _rows.html
+| | | |_index.html
+| | | |_list.html
+| | |
+| | |_base.html
+| 
+|_.gitignore
+|_alembic.ini
+|_app.log
+|_cheftec.db
+|_run_ui.py (this starts the tkinter program)
