@@ -1,0 +1,42 @@
+<div class="modal-backdrop"
+    hx-on="click: if(event.target === this) this.remove()"
+    style="
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    "
+>
+    <div class="modal"
+        style="
+            background:white;
+            padding:1rem;
+            width: 400px;
+            max-height: 70vh;
+            overflow:auto;
+            border-radius: 6px;
+        "
+    >
+        <h3>Link Ingredient</h3>
+
+        <input
+            type="text"
+            name="q"
+            placeholder="Search Ingredients..."
+            autofocus
+            hx-get="/ingredients/search-modal"
+            hx-trigger="keyup changed delay:300ms"
+            hx-target="#picker-results"
+            hx-vals='{"vendor_item_id": {{ vendor_item_id }} }'
+        />
+
+        <div id="picker-results" style="margin-top:0.5rem;"></div>
+
+        <button onclick="this.closest('modal-backdrop').remove()">
+            Cancel
+        </button>
+    </div>
+</div>

@@ -58,12 +58,53 @@ def ingredient_search(
         }
     )
 
+@router.get("/ingredients/search-modal")
+def ingredient_search_modal(
+    request: Request,
+    q: str = "",
+    vendor_item_id: int | None = None,
+    db: Session = Depends(get_db)
+):
+    print("Initializing ingredient search in modal.")
+    print("Query:", q)
+    ingredients = (
+        db.query(Ingredient)
+        .filter(Ingredient.name.ilike(f"%{q}%"))
+        .order_by(Ingredient.name)
+        .all()
+    )
+    print(f"Found {len(ingredients)} ingredients matching query.")
+    return templates.TemplateResponse(
+        "ingredients/_picker_results.html",
+        {
+            "request": request,
+            "ingredients": ingredients,
+            "vendor_item_id": vendor_item_id
+        }
+    )
+
 @router.get("/api/ingredients")
 def api_ingredients(
     local_kw: str | None = Query(None),
     db: Session = Depends(get_db)
 ):
     return ingredient_service.search(db, local_kw)
+
+@router.get("/ingredients/picker")
+def ingredient_picker(
+    request: Request,
+    vendor_item_id: int
+):
+    print("Rendering ingredient picker modal.")
+    print("Vendor Item ID:", vendor_item_id)
+    return templates.TemplateResponse(
+        "ingredients/picker_modal.html",
+        {
+            "request": request,
+            "vendor_item_id": vendor_item_id
+        }
+    )
+
 
 @router.post("/ingredients")
 def create_ingredient(

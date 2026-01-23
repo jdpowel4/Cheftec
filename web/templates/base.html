@@ -4,9 +4,55 @@
         <title>Jeremy's Cheftec</title>
         <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     </head>
+    <style>
+        .picker-item.active {
+            background: #cce4ff;
+        }
+    </style>
+    <script>
+        document.addEventListener("keydown", function(e) {
+            const list = document.getElementById("picker-list");
+            if (!list) return;
+
+            const items = Array.from(list.querySelectorAll(".picker-item"));
+            if (!items.length) return;
+
+            let index = items.findIndex(i => i.classList.contains("active"));
+
+            if (e.key === "ArrowDown") {
+                e.preventDefault();
+                if (index >= 0) items[index].classList.remove("active");
+                index = (index + 1) % items.length;
+                items[index].classList.add("active");
+                items[index].scrollIntoView({ block: "nearest" });
+            }
+
+            if (e.key === "ArrowUp") {
+                e.preventDefault();
+                if (index >=0) items[index].classList.remove("active");
+                index = (index - 1 + items.length) % items.length;
+                items[index].classList.add("active");
+                items[index].scrollIntoView({ block: "nearest" });
+            }
+
+            if (e.key === "Enter" && index >= 0) {
+                e.preventDefault();
+                if (index >= 0) {
+                    items[index].click();
+                }
+            }   
+
+            if (e.key === "Escape") {
+                document.getElementById("modal-root").innerHTML = "";
+            }
+        });
+    </script>
     <body>
         <main>
             {% block content %}{% endblock %}
         </main>
+
+        <!-- Modal Root-->
+        <div id="modal-root"></div>
     </body>
 </html>

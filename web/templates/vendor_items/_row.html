@@ -5,17 +5,13 @@
     <td>{{ item.purchase_unit }}</td>
 
     <td id="ingredient-cell-{{ item.id }}">
-        <input
-            type="text"
-            name="q"
-            placeholder="Search ingredient..."
-            hx-get="/ingredients/search"
-            hx-trigger="keyup changed delay:300ms"
-            hx-target="#ingredient-results-{{ item.id }}"
-            hx-vals='{"vendor_item_id": {{ item.id }} }'
-        />
-
-        <div id="ingredient-results-{{ item.id }}"></div>
+        <button
+            hx-get="/ingredients/picker?vendor_item_id={{ item.id }}"
+            hx-target="#modal-root"
+            hx-swap="innerHTML"
+        >
+        Link Ingredient
+    </button>
     </td>
 </tr>
 

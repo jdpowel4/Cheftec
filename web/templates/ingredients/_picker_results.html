@@ -1,0 +1,28 @@
+{% if ingredients %}
+  <ul 
+    id = "picker-list"
+    role = "listbox"
+    data-vendor-item-id = "{{ vendor_item_id }}"
+    style = "list-style:none; padding:0; margin:0;"
+  >
+    {% for ingredient in ingredients %}
+    <li 
+        
+        role = "option"
+        tabindex = "-1"
+        data-ingredient-id = "{{ ingredient.id }}"
+        class = "picker-item"
+        style = "padding:6px; cursor:pointer; border-bottom:1px solid #ddd;"
+        hx-post = "/vendor-items/{{ vendor_item_id }}/link"
+        hx-vals = '{"ingredient_id": {{ ingredient.id }} }'
+        hx-target = "#ingredient-cell-{{ vendor_item_id }}"
+        hx-swap = "innerHTML"
+        hx-on = "htmx:afterRequest: document.getElementById('modal-root').innerHTML=''"
+    >
+        {{ ingredient.name }} ({{ ingredient.base_unit or "" }})
+    </li>
+    {% endfor %}
+  </ul>
+{% else %}
+    <div style = "color:#777;">No Matches</div>
+{% endif %}
